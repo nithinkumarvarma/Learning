@@ -1,0 +1,64 @@
+CREATE DATABASE DataPractice;
+GO
+USE DataPractice;
+GO
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    Name NVARCHAR(100),
+    Department NVARCHAR(50),
+    Salary DECIMAL(10,2)
+);
+
+select * from Employees
+
+INSERT INTO Employees (EmployeeID, Name, Department, Salary) VALUES
+(1, 'Aarav Sharma', 'IT', 55000.00),
+(2, 'Vivaan Patel', 'Finance', 72000.00),
+(3, 'Aditya Reddy', 'HR', 48000.00),
+(4, 'Krishna Iyer', 'Sales', 61000.00),
+(5, 'Arjun Nair', 'Marketing', 58000.00),
+(6, 'Rohan Deshmukh', 'Data', 83000.00),
+(7, 'Aryan Choudhary', 'Operations', 45000.00),
+(8, 'Karthik Menon', 'IT', 67000.00),
+(9, 'Siddharth Joshi', 'Finance', 72000.00),
+(10, 'Ananya Gupta', 'HR', 50000.00),
+(11, 'Ishaan Saxena', 'Sales', 62000.00),
+(12, 'Diya Agarwal', 'Marketing', 57000.00),
+(13, 'Meera Kulkarni', 'Data', 85000.00),
+(14, 'Priya Malhotra', 'Operations', 46000.00),
+(15, 'Neha Verma', 'IT', 69000.00),
+(16, 'Sanya Kapoor', 'Finance', 75000.00),
+(17, 'Ritika Bansal', 'HR', 51000.00),
+(18, 'Pooja Pillai', 'Sales', 64000.00),
+(19, 'Shruti Mishra', 'Marketing', 60000.00),
+(20, 'Nisha Rathi', 'Data', 87000.00),
+(21, 'Lakshmi Krishnan', 'Operations', 47000.00),
+(22, 'Harini Ghosh', 'IT', 71000.00),
+(23, 'Tanvi Mehta', 'Finance', 76000.00),
+(24, 'Aditi Banerjee', 'HR', 52000.00),
+(25, 'Kavya Shukla', 'Sales', 65000.00),
+(26, 'Radhika Rao', 'Marketing', 59000.00),
+(27, 'Simran Kaur', 'Data', 88000.00),
+(28, 'Manisha Jindal', 'Operations', 48000.00),
+(29, 'Alok Sharma', 'IT', 72000.00),
+(30, 'Rajesh Gupta', 'Finance', 77000.00),
+(31, 'Suresh Reddy', 'HR', 53000.00),
+(32, 'Vikram Nair', 'Sales', 66000.00),
+(33, 'Deepak Yadav', 'Marketing', 61000.00),
+(34, 'Amitabh Singh', 'Data', 89000.00),
+(35, 'Prakash Iyer', 'Operations', 49000.00),
+(36, 'Sunil Joshi', 'IT', 73000.00),
+(37, 'Mohan Lal', 'Finance', 78000.00),
+(38, 'Ashok Pillai', 'HR', 54000.00),
+(39, 'Ramesh Babu', 'Sales', 67000.00),
+(40, 'Anil Menon', 'Marketing', 62000.00),
+(41, 'Gopal Desai', 'Data', 90000.00),
+(42, 'Shankar Choudhary', 'Operations', 50000.00),
+(43, 'Mukesh Jain', 'IT', 74000.00),
+(44, 'Ganesh Shetty', 'Finance', 79000.00),
+(45, 'Dinesh Malhotra', 'HR', 55000.00),
+(46, 'Sanjay Patil', 'Sales', 68000.00),
+(47, 'Harish Bansal', 'Marketing', 63000.00),
+(48, 'Naveen Krishnan', 'Data', 91000.00),
+(49, 'Kiran Kumar', 'Operations', 51000.00),
+(50, 'Vijay Prasad', 'IT', 75000.00);
