@@ -8,7 +8,7 @@ CREATE TABLE Employees (
     Department NVARCHAR(50),
     Salary DECIMAL(10,2)
 );
---
+--j
 select * from Employees
 
 INSERT INTO Employees (EmployeeID, Name, Department, Salary) VALUES
